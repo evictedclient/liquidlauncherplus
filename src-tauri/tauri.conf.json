@@ -1,0 +1,95 @@
+{
+  "productName": "LiquidLauncher",
+  "version": "0.4.0",
+  "identifier": "net.ccbluex.liquidlauncher",
+  "build": {
+    "beforeBuildCommand": "npm run build",
+    "beforeDevCommand": "npm run dev",
+    "devUrl": "http://localhost:5173",
+    "frontendDist": "../dist"
+  },
+  "app": {
+    "withGlobalTauri": true,
+    "windows": [
+      {
+        "title": "LiquidLauncher",
+        "label": "main",
+        "width": 1000,
+        "minWidth": 1000,
+        "height": 635,
+        "minHeight": 635,
+        "resizable": true,
+        "fullscreen": false,
+        "transparent": true,
+        "decorations": false,
+        "center": true,
+        "windowEffects": {
+          "effects": [
+            "acrylic"
+          ]
+        },
+        "shadow": true
+      },
+      {
+        "title": "LiquidBounce Download",
+        "label": "download_view",
+        "url": "https://liquidbounce.net/download",
+        "visible": false,
+        "maximized": true,
+        "alwaysOnTop": true,
+        "center": true,
+        "parent": "main"
+      }
+    ]
+  },
+  "bundle": {
+    "active": true,
+    "category": "Game",
+    "copyright": "CCBlueX",
+    "publisher": "CCBlueX",
+    "externalBin": [],
+    "icon": [
+      "icons/32x32.png",
+      "icons/128x128.png",
+      "icons/128x128@2x.png",
+      "icons/icon.icns",
+      "icons/icon.ico"
+    ],
+    "shortDescription": "A LiquidBounce launcher for Minecraft",
+    "longDescription": "A LiquidBounce hacked-client launcher for the game Minecraft",
+    "license": "GPL-3.0",
+    "licenseFile": "../LICENSE",
+    "resources": [],
+    "targets": "all",
+    "createUpdaterArtifacts": "v1Compatible",
+    "windows": {
+      "certificateThumbprint": null,
+      "digestAlgorithm": "sha256",
+      "timestampUrl": "",
+      "webviewInstallMode": {
+        "type": "embedBootstrapper"
+      }
+    },
+    "linux": {
+      "appimage": {
+        "bundleMediaFramework": true
+      }
+    },
+    "macOS": {
+      "entitlements": null,
+      "exceptionDomain": "",
+      "frameworks": [],
+      "providerShortName": null,
+      "signingIdentity": null
+    }
+  },
+  "plugins": {
+    "updater": {
+      "pubkey": "dW50cnVzdGVkIGNvbW1lbnQ6IG1pbmlzaWduIHB1YmxpYyBrZXk6IEU1QkM5MTlDREQ4NkEzNjMKUldSam80YmRuSkc4NVNxS2MzYVZPN1I4a283RkdsS0lPTjVjRWlxQ1JhdzFZUkRtc0c1eEtqSzQK",
+      "endpoints": [
+        "https://github.com/CCBlueX/LiquidLauncher/releases/latest/download/latest.json",
+        "https://api.liquidbounce.net/api/v1/launcher/releases/{{target}}/{{current_version}}"
+      ]
+    }
+  }
+}

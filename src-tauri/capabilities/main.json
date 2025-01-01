@@ -1,0 +1,25 @@
+{
+    "identifier": "main-capability",
+    "description": "Capability for the main window",
+    "windows": [
+        "main"
+    ],
+    "permissions": [
+        "core:path:default",
+        "core:event:default",
+        "core:window:default",
+        "core:app:default",
+        "core:resources:default",
+        "core:menu:default",
+        "core:tray:default",
+        "core:window:allow-set-title",
+        "core:window:allow-start-dragging",
+        "dialog:allow-message",
+        "dialog:allow-open",
+        "dialog:allow-confirm",
+        "dialog:allow-ask",
+        "opener:default",
+        "process:allow-exit",
+        "updater:default"
+    ]
+}
