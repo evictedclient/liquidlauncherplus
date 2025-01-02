@@ -129,18 +129,6 @@ dependencies = [
 
 [[package]]
 name = "async-compression"
-version = "0.3.15"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "942c7cd7ae39e91bde4820d74132e9862e62c2f386c3aa90ccf55949f5bad63a"
-dependencies = [
- "flate2",
- "futures-core",
- "memchr",
- "pin-project-lite",
-]
-
-[[package]]
-name = "async-compression"
 version = "0.4.18"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "df895a515f70646414f4b45c0b79082783b80552b373a68283012928df56f522"
@@ -282,7 +270,7 @@ version = "0.0.17"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "00b9f7252833d5ed4b00aa9604b563529dd5e11de9c23615de2dcdf91eb87b52"
 dependencies = [
- "async-compression 0.4.18",
+ "async-compression",
  "chrono",
  "crc32fast",
  "futures-lite",
@@ -2410,7 +2398,7 @@ name = "liquidlauncher"
 version = "0.4.0"
 dependencies = [
  "anyhow",
- "async-compression 0.3.15",
+ "async-compression",
  "async_zip",
  "azalea-auth",
  "backon",
