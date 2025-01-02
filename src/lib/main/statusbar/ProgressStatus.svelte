@@ -25,7 +25,7 @@
     }
 
     .progress::-webkit-progress-value {
-        background-color: #4677ff;
+        background-color:rgb(175, 0, 0);
     }
 
     .text {

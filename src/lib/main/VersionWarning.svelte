@@ -10,16 +10,16 @@
 </script>
 
 <SettingsContainer
-        title="You are about to launch an unsupported version!"
+        title="You are about to launch a Laggy Memory Monster!1!!11!!!"
         on:hideSettings={() => dispatch('hide')}
 >
     <Description
-            description="The selected version of LiquidBounce is no longer officially supported. We recommend upgrading to the latest version of LiquidBounce Nextgen, which works with all Minecraft versions from 1.7 onward."
+            description="zigger zigger zigger zigger zigger zigger zigger zigger zigger zigger"
     />
     <ButtonSetting
-            text="Switch to Nextgen now"
+            text="Switch to legacy now"
             on:click={() => dispatch('switchToNextgen')}
-            color="#4677FF"
+            color="#8a0000"
     />
     <ButtonSetting
             disabled={launchVersionWarningCountdown > 0}

@@ -1,5 +1,5 @@
 .range-setting .noUi-handle {
-    background-color: #4677ff;
+    background-color: #c10000;
     box-shadow: unset;
     border: none;
     border-radius: 50%;
@@ -22,5 +22,5 @@
 }
 
 .range-setting .noUi-connect {
-    background-color: #4677ff;
+    background-color: #ba0000;
 }

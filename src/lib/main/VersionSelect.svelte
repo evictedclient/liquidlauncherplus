@@ -69,7 +69,7 @@
             title="Branch"
             items={versionState.branches.map(e => ({
                 value: e,
-                text: `${e.charAt(0).toUpperCase()}${e.slice(1)} ${e === "legacy" ? "(unsupported)" : ""}`
+                text: `${e.charAt(0).toUpperCase()}${e.slice(1)} ${e === "legacy" ? "(better)" : ""}`
             }))}
             bind:value={options.version.branchName}
             on:change={() => dispatch('updateData')}

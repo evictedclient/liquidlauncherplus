@@ -60,12 +60,12 @@
     }
 
     .checkbox:checked + .slider {
-        background-color: #4860a7;
+        background-color:rgb(138, 0, 0);
     }
 
     .checkbox:checked + .slider::before {
         transform: translateX(10px);
-        background-color: #4677ff;
+        background-color:rgb(223, 0, 0);
     }
 
     .checkbox:disabled + .slider {

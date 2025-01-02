@@ -14,7 +14,7 @@
     .button {
         background: unset;
         border: none;
-        background-color: #4677FF;
+        background-color:rgb(173, 0, 0);
         color: white;
         font-size: 14px;
         border-radius: 6px;
@@ -28,7 +28,7 @@
     }
 
     .button:hover {
-        background-color: #3E69E2;
+        background-color:rgb(180, 0, 0);
     }
 
     .button.active {

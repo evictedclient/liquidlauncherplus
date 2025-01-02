@@ -28,7 +28,7 @@
 
 <style>
     .tooltip {
-        background-color: #4677FF;
+        background-color:rgb(163, 0, 0);
         color: white;
         padding: 7px 10px;
         border-radius: 15px;
@@ -47,7 +47,7 @@
         display: block;
         height: 10px;
         width: 10px;
-        background-color: #4677FF;
+        background-color:rgb(152, 0, 0);
         position: absolute;
         left: 50%;
         transform: translateX(-50%) rotate(45deg);

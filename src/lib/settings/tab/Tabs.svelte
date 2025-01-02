@@ -33,6 +33,6 @@
     }
 
     .tab.active {
-        border-color: #4677FF;
+        border-color:rgb(174, 0, 0);
     }
 </style>

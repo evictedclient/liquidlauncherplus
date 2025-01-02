@@ -127,11 +127,14 @@
     }
 
     async function runClientWithWarning() {
-        const isWarning = options.version.branchName === "legacy" ||
-            (options.version.branchName === "nextgen" && options.version.buildId !== -1);
-
+        const isWarning = options.version.branchName === "nextgen";
         
-        await runClient();
+        if (isWarning) {
+            launchVersionWarningShown = true;
+            launchVersionWarningCountdown = 1;
+        } else {
+            await runClient();
+        }
     }
 
     const WARNING_MEMORY = 4096;
@@ -209,7 +212,7 @@
 
     async function switchToNextgen() {
         launchVersionWarningShown = false;
-        options.version.branchName = "nextgen";
+        options.version.branchName = "legacy";
         options.version.buildId = -1;
         await options.store();
         await updateData();

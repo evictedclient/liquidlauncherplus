@@ -25,10 +25,10 @@
     }
 
     .button.primary {
-        background-color: #4677FF;
+        background-color:rgb(124, 0, 0);
     }
 
     .button.primary:hover {
-        background-color: #3E69E2;
+        background-color:rgb(255, 0, 0);
     }
 </style>

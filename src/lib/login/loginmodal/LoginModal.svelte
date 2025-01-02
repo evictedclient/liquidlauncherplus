@@ -95,7 +95,7 @@
         left: 50%;
         bottom: -20px;
         transform: translateX(-50%);
-        background-color: #4677FF;
+        background-color:rgb(165, 0, 0);
         border-radius: 5px;
     }
 </style>

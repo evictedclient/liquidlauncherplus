@@ -30,7 +30,7 @@
 
     .wrapped-settings:not(:empty) {
         padding: 10px;
-        border-bottom: solid 1px #4677ff;
+        border-bottom: solid 1pxrgb(177, 0, 0);
         display: grid;
         grid-template-rows: max-content;
         row-gap: 5px;

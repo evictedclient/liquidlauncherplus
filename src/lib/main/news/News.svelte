@@ -16,7 +16,7 @@
 <div class="news">
     <div class="banner">
         <div class="banner-text">{bannerText}</div>
-        <div class="background" style="background-image: linear-gradient(to bottom, transparent, #4677ffc5), url({bannerUrl});"></div>
+        <div class="background" style="background-image: linear-gradient(to bottom, transparent,rgba(172, 0, 0, 0.77)), url({bannerUrl});"></div>
     </div>
     <div class="content">
         <div class="title-date">
@@ -96,7 +96,7 @@
 
     .content .button-show-news {
         border: none;
-        background-color: #4677FF;
+        background-color:rgba(169, 0, 0, 0.84);
         color: white;
         font-size: 12px;
         border-radius: 4px;
@@ -108,7 +108,7 @@
     }
 
     .content .button-show-news:hover {
-        background-color: #3E69E2;
+        background-color:rgb(192, 0, 0);
     }
 
     .content .title-date {

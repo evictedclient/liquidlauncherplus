@@ -24,7 +24,7 @@
     }
 
     .icon {
-        background-color: #4677FF;
+        background-color:rgb(161, 0, 0);
         height: 38px;
         width: 38px;
         border-radius: 6px;

@@ -22,7 +22,7 @@
 
 <div class="launch-area">
     <div class="version-info">
-        <div class="banner" style="background-image: linear-gradient(to bottom, transparent, #4677ffc5), url({versionInfo.bannerUrl});">
+        <div class="banner" style="background-image: linear-gradient(to bottom, transparent,rgba(169, 0, 0, 0.77)), url({versionInfo.bannerUrl});">
             <div class="title">{versionInfo.title}</div>
             <div class="date">{versionInfo.date}</div>
         </div>

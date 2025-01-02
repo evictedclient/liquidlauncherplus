@@ -86,7 +86,7 @@
     {#if error}
         <h1 class="error">Error: {error}</h1>
     {:else if loading}
-        <h1>The launcher is loading...</h1>
+        <h1 style="text-align: center; margin: auto; vertical-align:middle;">The launcher+ :moneyeyes: is loading...</h1>
     {:else if options}
         {#if options.start.account}
             <MainScreen bind:options />
@@ -98,7 +98,7 @@
 
 <style>
     .window {
-        background-color: rgba(0, 0, 0, 0.6);
+        background-color: rgba(0, 0, 0, 0);
         width: 100vw;
         height: 100vh;
         padding: 32px;
@@ -112,10 +112,6 @@
         width: calc(100vw - 150px);
         height: 100px;
         z-index: 100;
-    }
-
-    h1 {
-        color: white;
     }
 
     .error {

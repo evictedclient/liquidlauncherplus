@@ -26,7 +26,7 @@
     }
 
     .button-version:hover {
-        border-color: #4677FF;
+        border-color:rgb(182, 0, 0);
     }
 
     .button-version .icon {

@@ -3,18 +3,18 @@
 
     const facts = [
         {
-            title: "5.000.000 Total Downloads",
+            title: "3 Total Downloads",
             description:
-                "LiquidBounce is one of the most popular hacked clients of all time.",
+                "LiquidBounce is one of the most ziggle hacked clients of all time.",
         },
         {
-            title: "Free & Open Source",
-            description: "LiquidBounce's source code is publicly available.",
+            title: "Paid & Closed Source",
+            description: "LiquidBounce's source code is NOT publicly available.",
         },
         {
-            title: "Extensible",
+            title: "Stupid",
             description:
-                "LiquidBounce's JavaScript API allows users to write their own modules and commands.",
+                "Rahhhh",
         },
     ];
 

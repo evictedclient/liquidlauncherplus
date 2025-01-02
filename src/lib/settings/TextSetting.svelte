@@ -19,7 +19,7 @@
         width: 100%;
         background-color: rgba(0, 0, 0, .26);
         border: none;
-        border-bottom: solid 1px #4677FF;
+        border-bottom: solid 1pxrgb(166, 0, 0);
         color: white;
         font-family: "Inter", sans-serif;
         padding: 5px;
